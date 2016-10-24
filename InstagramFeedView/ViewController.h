@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    
+    NSMutableArray * feedDataArray;
 }
 @property (nonatomic, weak) NSMutableDictionary *contentOffsetDictionary;
 @property (weak, nonatomic) IBOutlet UITableView *tableview;

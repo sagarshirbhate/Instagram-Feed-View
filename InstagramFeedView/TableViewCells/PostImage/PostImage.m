@@ -51,20 +51,11 @@
    // }
     
 
-//    [_postImage addShaddow];
-//    _postImage.userInteractionEnabled=YES;
-//    UITapGestureRecognizer *tapRecognizerq = [[UITapGestureRecognizer alloc] init];
-//    [tapRecognizerq addTarget:self action:@selector(clickedmage:)];
-//    [_postImage addGestureRecognizer:tapRecognizerq];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
-}
-
--(void)clickedmage:(UITapGestureRecognizer *)sender {
 }
 
 
