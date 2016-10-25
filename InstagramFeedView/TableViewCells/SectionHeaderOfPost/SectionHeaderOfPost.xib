@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SectionHeaderOfPost" rowHeight="50" id="pJK-Cr-v5L" customClass="SectionHeaderOfPost">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pJK-Cr-v5L" id="rxO-DG-2Hc">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbs-CV-0sE">
+                        <rect key="frame" x="560" y="15" width="22" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5yZ-x7-6pd"/>
+                            <constraint firstAttribute="width" constant="22" id="BKG-gk-M2v"/>
+                        </constraints>
+                        <state key="normal" image="Menu">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="menuButtonclick:" destination="pJK-Cr-v5L" eventType="touchUpInside" id="aax-sN-AKg"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noUser" translatesAutoresizingMaskIntoConstraints="NO" id="MKx-Eb-ihx">
+                        <rect key="frame" x="18" y="6" width="38" height="38"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="38" id="gWf-Z0-jyh"/>
+                            <constraint firstAttribute="height" constant="38" id="pyS-Jn-RV9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JJ-L2-nSP">
+                        <rect key="frame" x="64" y="8" width="496" height="33"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="8JJ-L2-nSP" firstAttribute="leading" secondItem="MKx-Eb-ihx" secondAttribute="trailing" constant="8" id="FJA-z1-qG5"/>
+                    <constraint firstItem="MKx-Eb-ihx" firstAttribute="centerY" secondItem="rxO-DG-2Hc" secondAttribute="centerY" id="G8j-Bp-KJl"/>
+                    <constraint firstItem="wbs-CV-0sE" firstAttribute="centerY" secondItem="rxO-DG-2Hc" secondAttribute="centerY" id="IGX-nE-c5P"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8JJ-L2-nSP" secondAttribute="bottom" id="LpN-9r-S2L"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wbs-CV-0sE" secondAttribute="trailing" constant="10" id="Qkd-c6-xBc"/>
+                    <constraint firstItem="8JJ-L2-nSP" firstAttribute="top" secondItem="rxO-DG-2Hc" secondAttribute="topMargin" id="Qvz-gI-X3h"/>
+                    <constraint firstItem="wbs-CV-0sE" firstAttribute="leading" secondItem="8JJ-L2-nSP" secondAttribute="trailing" id="kQU-q9-kz4"/>
+                    <constraint firstItem="MKx-Eb-ihx" firstAttribute="leading" secondItem="rxO-DG-2Hc" secondAttribute="leadingMargin" constant="10" id="uBG-oV-VyD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="menuBtn" destination="wbs-CV-0sE" id="F6g-1D-B3d"/>
+                <outlet property="profileImage" destination="MKx-Eb-ihx" id="naA-7f-K0V"/>
+                <outlet property="titleLabel" destination="8JJ-L2-nSP" id="YqD-uP-STb"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Menu" width="64" height="64"/>
+        <image name="noUser" width="400" height="400"/>
+    </resources>
+</document>

@@ -15,21 +15,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vL-Lb-Q7H">
-                        <rect key="frame" x="13" y="4" width="44" height="40"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjh-PJ-gY9">
+                        <rect key="frame" x="82" y="5" width="40" height="40"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="44" id="4vo-Jr-EKb"/>
-                            <constraint firstAttribute="height" constant="40" id="yYF-gA-PPJ"/>
-                        </constraints>
-                        <state key="normal" image="Like"/>
-                        <connections>
-                            <action selector="likeClick:" destination="qKJ-Gb-etI" eventType="touchUpInside" id="INi-jY-m5v"/>
-                        </connections>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjh-PJ-gY9">
-                        <rect key="frame" x="67" y="4" width="40" height="40"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="40" id="c5U-UK-kJR"/>
                             <constraint firstAttribute="width" constant="40" id="cji-yQ-kQg"/>
                         </constraints>
                         <state key="normal" image="Comment"/>
@@ -37,15 +25,25 @@
                             <action selector="commentClick:" destination="qKJ-Gb-etI" eventType="touchUpInside" id="HIj-32-l5I"/>
                         </connections>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqn-Eo-VnW">
-                        <rect key="frame" x="117" y="4" width="40" height="40"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqn-Eo-VnW">
+                        <rect key="frame" x="132" y="5" width="40" height="40"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="dFC-x2-WxC"/>
-                            <constraint firstAttribute="height" constant="40" id="rt7-YJ-R9u"/>
                         </constraints>
                         <state key="normal" image="Share"/>
                         <connections>
                             <action selector="shareclick:" destination="qKJ-Gb-etI" eventType="touchUpInside" id="WFD-lL-ZyD"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vL-Lb-Q7H">
+                        <rect key="frame" x="28" y="5" width="44" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="4vo-Jr-EKb"/>
+                            <constraint firstAttribute="height" constant="40" id="yYF-gA-PPJ"/>
+                        </constraints>
+                        <state key="normal" image="Like"/>
+                        <connections>
+                            <action selector="likeClick:" destination="qKJ-Gb-etI" eventType="touchUpInside" id="INi-jY-m5v"/>
                         </connections>
                     </button>
                 </subviews>
@@ -57,7 +55,7 @@
                     <constraint firstItem="tjh-PJ-gY9" firstAttribute="leading" secondItem="3vL-Lb-Q7H" secondAttribute="trailing" constant="10" id="WON-Pw-I7P"/>
                     <constraint firstAttribute="bottomMargin" secondItem="cqn-Eo-VnW" secondAttribute="bottom" constant="-4" id="g70-cr-DbU"/>
                     <constraint firstItem="cqn-Eo-VnW" firstAttribute="leading" secondItem="tjh-PJ-gY9" secondAttribute="trailing" constant="10" id="j3I-dm-l3v"/>
-                    <constraint firstItem="3vL-Lb-Q7H" firstAttribute="leading" secondItem="cez-hj-ADV" secondAttribute="leadingMargin" constant="5" id="oHW-T5-ESY"/>
+                    <constraint firstItem="3vL-Lb-Q7H" firstAttribute="leading" secondItem="cez-hj-ADV" secondAttribute="leadingMargin" constant="20" id="oHW-T5-ESY"/>
                     <constraint firstItem="3vL-Lb-Q7H" firstAttribute="top" secondItem="cez-hj-ADV" secondAttribute="topMargin" constant="-4" id="rNG-7k-8uY"/>
                     <constraint firstAttribute="bottomMargin" secondItem="tjh-PJ-gY9" secondAttribute="bottom" constant="-4" id="xzO-t0-xbG"/>
                 </constraints>

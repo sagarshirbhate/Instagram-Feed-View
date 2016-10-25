@@ -25,7 +25,7 @@
     
     _closeButton.layer.cornerRadius=7.5;
     _closeButton.clipsToBounds=YES;
-    _closeButton.hidden=YES;
+  //  _closeButton.hidden=YES;
     
     _profileImage.userInteractionEnabled=YES;
     UITapGestureRecognizer *tapRecognizerq = [[UITapGestureRecognizer alloc] init];

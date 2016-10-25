@@ -12,7 +12,6 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    _titleLabel.font=[UIFont systemFontOfSize:13 weight:UIFontWeightLight];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

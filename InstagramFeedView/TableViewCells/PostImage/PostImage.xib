@@ -15,7 +15,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="600" height="149"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="postPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="UJN-rX-x47">
+                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PostImage" translatesAutoresizingMaskIntoConstraints="NO" id="UJN-rX-x47">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="149"/>
                     </imageView>
                 </subviews>
@@ -33,6 +33,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="postPlaceholder" width="1280" height="800"/>
+        <image name="PostImage" width="500" height="277"/>
     </resources>
 </document>
