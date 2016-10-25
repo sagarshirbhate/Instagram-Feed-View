@@ -11,5 +11,5 @@
 -
 | Potrait View    | Landscape View|
 | ------------- |:-------------:|
-| ![ScreenShot](http://i.giphy.com/GAdk40Htui3iE.gif)|![ScreenShot](http://i.giphy.com/pKw3Mq6Q4TFQY.gif)|
+| ![ScreenShot](https://github.com/sagarshirbhate/Instagram-Feed-View/blob/master/1.gif)|![ScreenShot](https://github.com/sagarshirbhate/Instagram-Feed-View/blob/master/2.gif)|
 
