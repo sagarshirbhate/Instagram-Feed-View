@@ -1,4 +1,5 @@
-# Instagram Feeds View
+<sub>Instagram Feeds View</sub>
+-
 * It is just a demo view to show feeds as shown in Instagram.
 * In this demo UITableview used with Multiple cells.
 * All description of post(Image,User,Like,Comment etc..) can be managed by the array of an post.
