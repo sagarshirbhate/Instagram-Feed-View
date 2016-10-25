@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		132E58F11DBF22F300A85B61 /* SectionHeaderOfPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 132E58EF1DBF22F300A85B61 /* SectionHeaderOfPost.m */; };
 		132E58F21DBF22F300A85B61 /* SectionHeaderOfPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132E58F01DBF22F300A85B61 /* SectionHeaderOfPost.xib */; };
+		132E58F41DBF3B4000A85B61 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 132E58F31DBF3B4000A85B61 /* unnamed.png */; };
 		1343282F1DBE32890000A2DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1343282E1DBE32890000A2DD /* main.m */; };
 		134328321DBE32890000A2DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134328311DBE32890000A2DD /* AppDelegate.m */; };
 		134328351DBE32890000A2DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134328341DBE32890000A2DD /* ViewController.m */; };
@@ -37,6 +38,7 @@
 		132E58EE1DBF22F300A85B61 /* SectionHeaderOfPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderOfPost.h; sourceTree = "<group>"; };
 		132E58EF1DBF22F300A85B61 /* SectionHeaderOfPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderOfPost.m; sourceTree = "<group>"; };
 		132E58F01DBF22F300A85B61 /* SectionHeaderOfPost.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderOfPost.xib; sourceTree = "<group>"; };
+		132E58F31DBF3B4000A85B61 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
 		1343282A1DBE32890000A2DD /* InstagramFeedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFeedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1343282E1DBE32890000A2DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		134328301DBE32890000A2DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		1343282C1DBE32890000A2DD /* InstagramFeedView */ = {
 			isa = PBXGroup;
 			children = (
+				132E58F31DBF3B4000A85B61 /* unnamed.png */,
 				139323DE1DBE352B00FE8130 /* TableViewCells */,
 				134328301DBE32890000A2DD /* AppDelegate.h */,
 				134328311DBE32890000A2DD /* AppDelegate.m */,
@@ -284,6 +287,7 @@
 			files = (
 				139324071DBE352B00FE8130 /* PostDescription.xib in Resources */,
 				132E58F21DBF22F300A85B61 /* SectionHeaderOfPost.xib in Resources */,
+				132E58F41DBF3B4000A85B61 /* unnamed.png in Resources */,
 				1343283D1DBE32890000A2DD /* LaunchScreen.storyboard in Resources */,
 				139324091DBE352B00FE8130 /* PostImage.xib in Resources */,
 				1393240D1DBE352B00FE8130 /* SuggestedPeopleCell.xib in Resources */,

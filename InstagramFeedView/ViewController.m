@@ -297,7 +297,7 @@
     }
     
     headerView.layer.borderWidth=0.5;
-    headerView.layer.borderColor= [UIColor grayColor].CGColor;
+    headerView.layer.borderColor= [UIColor lightGrayColor].CGColor;
     
     UIView *view = [[UIView alloc] initWithFrame:[headerView frame]];
     headerView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
