@@ -1,3 +1,7 @@
+![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat)
+![Language](https://img.shields.io/badge/Language-Objective----C-yellowgreen.svg)
+![Library](https://img.shields.io/badge/Library-%20Innovative-orange.svg)
+
 <sub>Instagram Feeds View</sub>
 -
 * It is just a demo view to show feeds as shown in Instagram.
